@@ -136,3 +136,58 @@ p {
 
 }
 
+@media only screen and (min-width: 1100px) and (max-width: 1320px) {
+    .image {
+        width: 40%;
+        height: 75%;
+        padding-left: 30%; 
+        margin-bottom: 50px;
+    }
+
+    .buy {
+        display: none;
+    }
+    
+}
+
+@media only screen and (min-width: 690px) and (max-width: 1100px) {
+    .image {
+        width: 40%;
+        height: 75%;
+        display: flex;
+        margin-bottom: -550px;
+    }
+    
+    .buy {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 690px) {
+    .image {
+        width: 70%;
+        height: 80%;
+        display: flex;
+        padding: 30px;
+        margin-bottom: -800px;
+    }
+
+    .image:hover {
+        width: 75%;
+        height: 82%;
+        transition: all .5s;
+    
+    }
+    
+    .buy {
+        display: none;
+    }
+
+    nav {
+       
+        margin-bottom: -80px;
+        font-size: 10px;
+        
+    }
+}
+
